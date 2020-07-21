@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/company-menu/index.css">
+</head>
+<body>
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/company-menu/index.js"></script>
+    <div class="company-menu-box">
+        <div class="information">
+            <div class="left">
+
+            </div>
+            <div class="right">
+                <ul>
+                    <li>服务商 xxx</li>
+                    <li>服务商等级  数量</li>
+                    <li>服务商地址</li>
+                </ul>
+            </div>
+        </div>
+        <div class="combo">
+            <ul id="tablist">
+                <li class="tabin">优惠套餐</li>
+                <li>自选套餐</li>
+            </ul>
+            <div class="content-box">
+                <ul class="price" id="price">
+                    <li class="active">800元套餐</li>
+                    <li>1500元套餐</li>
+                    <li>2500元套餐</li>
+                    <li>5000元套餐</li>
+                    <li>8000元套餐</li>
+                </ul>
+                <ol class="info">
+                    <li>
+                        <span>演员数量：200</span>
+                        <span>类型：xxx</span>
+                    </li>
+                    <li>
+                        <span>场景：xxxxx</span>
+                        <span>画质：xxx</span>
+                    </li>
+                    <li>
+                        <span>调色：xxxxx</span>
+                        <span>灯光：xxx</span>
+                    </li>
+                    <li>
+                        <span>时长：xxxxx</span>
+                        <span>配音：xxx</span>
+                    </li>
+                </ol>
+            </div>
+        </div>
+        <div class="customer-select">
+            <select id="resLevel"  name="resLevel" lay-filter="resLevel" lay-verify="resLevel">
+                <option value="客户所属行业">客户所属行业</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+            <select id="resLevel2"  name="resLevel" lay-filter="resLevel" lay-verify="resLevel">
+                <option value="客户所属二级行业">客户所属二级行业</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select>
+        </div>
+        <div class="order-amount">
+            <span>订单金额：</span>
+            <span class="subscription">800</span>
+            <button class="order-btn">提交订单</button>
+        </div>
+    </div>
+    <!-- <select id="resLevel"  name="resLevel" lay-filter="resLevel" lay-verify="resLevel">
+        <option value="请选择">请选择</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select> -->
+</body>
+</html>
